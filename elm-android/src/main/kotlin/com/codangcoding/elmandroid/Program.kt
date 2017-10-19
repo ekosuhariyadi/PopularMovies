@@ -1,6 +1,5 @@
 package com.codangcoding.elmandroid
 
-import android.util.Log
 import com.codangcoding.elmandroid.AbstractMsg.Msg
 import com.jakewharton.rxrelay2.BehaviorRelay
 import io.reactivex.Scheduler
@@ -22,7 +21,6 @@ class Program(private val outputScheduler: Scheduler) {
 
         return msgRelay
                 .map { (msg, state) ->
-                    Log.d("biji", "$msg")
                     component.update(msg, state)
                 }
                 .observeOn(outputScheduler)
