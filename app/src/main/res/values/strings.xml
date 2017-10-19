@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="shared_image" translatable="false">sharedimage</string>
+
+    <string name="movie_details_rating">%1$.1f</string>
+    <string name="movie_details_release_date">Release date: %s</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="network_request_error">Something went wrong,\nplease check your internet connection!</string>
+
+    <string name="description_movie_backdrop">Movie backdrop image</string>
+    <string name="description_movie_poster">Movie poster image</string>
+    <string name="overview_title">Overview</string>
+
+    <string name="rate_perfect">Perfect</string>
+    <string name="rate_good">Good</string>
+    <string name="rate_normal">So so</string>
+    <string name="rate_bad">Duh</string>
+    <string name="review_title">Reviews</string>
+    <string name="no_review">No Review yet.</string>
+    <string name="video_title">Videos</string>
+    <string name="title_popular_movies">Popular Movies</string>
+    <string name="title_top_rated_movies">Top Rated Movies</string>
+    <string name="favorites">Favorites</string>
+    <string name="title_favorite_movies">Favorite Movies</string>
+</resources>

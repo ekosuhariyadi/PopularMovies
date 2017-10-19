@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gray_background">#eeeeee</color>
+
+    <color name="colorMainDarkAlpha">#80071C24</color>
+    <color name="body_text_1">#de000000</color>
+    <color name="body_text_2">#8a000000</color>
+
+    <color name="divider_color">#92a3a3a3</color>
+
+    <color name="rate_perfect">#1b5e20</color>
+    <color name="rate_good">#4caf50</color>
+    <color name="rate_normal">#757575</color>
+    <color name="rate_bad">#f44336</color>
+</resources>
