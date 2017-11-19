@@ -4,7 +4,7 @@ import android.arch.lifecycle.Lifecycle
 import android.arch.lifecycle.LifecycleOwner
 import android.arch.lifecycle.LifecycleRegistry
 import android.support.v7.app.AppCompatActivity
-import com.codangcoding.popularmovies.internal.di.Injectable
+import com.codangcoding.daggerandroidarch.base.Injectable
 
 open class LifecycleAwareActivity : AppCompatActivity(), LifecycleOwner, Injectable {
 

@@ -2,6 +2,8 @@ package com.codangcoding.popularmovies.internal.di
 
 import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
+import com.codangcoding.daggerandroidarch.base.ViewModelFactory
+import com.codangcoding.daggerandroidarch.base.ViewModelKey
 import com.codangcoding.popularmovies.detail.DetailViewModel
 import com.codangcoding.popularmovies.main.MainViewModel
 import dagger.Binds
