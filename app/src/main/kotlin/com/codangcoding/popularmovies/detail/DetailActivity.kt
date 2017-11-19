@@ -38,7 +38,7 @@ class DetailActivity : LifecycleAwareActivity() {
     private val viewModel: DetailViewModel by lazy {
         ViewModelProviders.of(this, viewModelFactory).get(DetailViewModel::class.java)
     }
-    private val clickListener: VideoClickListener = { video, view ->
+    private val clickListener: VideoClickListener = { video, _ ->
         if (YOUTUBE.equals(video.site, true)) {
             val intent = Intent(
                     Intent.ACTION_VIEW,

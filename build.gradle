@@ -16,7 +16,7 @@ buildscript {
         rxrelay_version = '2.0.0'
         paperparcel_version = '2.0.4'
         glide_version = '4.2.0'
-        elm_android_version = '1.0-0'
+        elm_android_version = '1.0-1'
         base_dagger_androidarch_version = '1.0-0'
     }
 
