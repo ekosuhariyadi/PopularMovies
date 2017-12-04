@@ -5,7 +5,7 @@ buildscript {
     ext {
         support_version = '27.0.1'
         constraint_version = "1.0.2"
-        kotlin_version = '1.1.60'
+        kotlin_version = '1.2.0'
         rxandroid_version = '2.0.1'
         rxjava2_version = '2.1.6'
         retrofit2_version = '2.3.0'
@@ -27,7 +27,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:3.0.0")
+        classpath('com.android.tools.build:gradle:3.0.1')
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
